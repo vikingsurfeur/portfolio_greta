@@ -1,0 +1,16 @@
+// POSITION INNER FLEX CENTER-CENTER ROW
+
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// POSITION INNER FLEX CENTER-CENTER COLONNE
+
+%flex-center-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

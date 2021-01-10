@@ -1,0 +1,62 @@
+// REGLES HTML
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+// COULEUR PRINCIPALE
+
+$black: #121212;
+$white: #fefefe;
+
+
+// SCROLL STYLE
+
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 5px;
+    transition: 250ms all;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: $white;
+}
+
+// AUTOFILL CHROME
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    border-radius: 4px;
+	border-color: #ccc;
+   	border-width: 0 0 0 1px 0;
+   	border-style: none none solid none;
+    -webkit-text-fill-color: $white;
+    box-shadow: 0 0 0px 1000px rgb(10, 10, 10) inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+// IMG RENDERING
+
+img {
+    image-rendering: -moz-crisp-edges;         
+    image-rendering:   -o-crisp-edges;         
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}

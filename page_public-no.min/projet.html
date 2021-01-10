@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<!-- LANGUE -->
+<html lang="fr">
+
+<!-- HEAD -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITRE -->
+    <title>David Bouscarle | Web Designer</title>  
+    <!-- DESCRIPTION -->
+    <meta name="description" content="Découvrez les projets personnels de David Bouscarle, Web Designer et Photographe à Carpentras dans le Vaucluse">
+    <!-- ICONE ONGLET 32x32 -->
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <!-- TITRE PAGE RESEAUX -->
+    <meta property="og:title" content="David Bouscarle | Web Designer" />
+    <!-- IMAGE PAGE RESEAUX -->
+    <meta property="og:image" content="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+    <!-- PARTAGE TWITTER / GO TO https://webcode.tools/twitter-card-generator -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@DavidBouscarle">
+    <meta name="twitter:title" content="David Bouscarle | Web Designer | Développeur Web | Photographe">
+    <meta name="twitter:description" content="Découvrez le portfolio de David Bouscarle, Web Designer, Développeur Web et Photographe à Carpentras dans le Vaucluse">
+    <meta name="twitter:image" content="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+    <!-- JQUERY V3.3.1 NOT SLIM / POPPER.JS V1.14.7 / BOOTSTRAP JS V4.3.1 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP CDN V4.3.1 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- MY CSS -->
+    <link rel="stylesheet" type="text/css" href="../style/style.min.css">    
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- FONT GOOGLE -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+</head>
+
+<!-- BODY -->
+<body>
+
+    <!-- BUTTON TO THE TOP -->
+    <!-- <ul class="toTop">
+        <li>
+            <a href="#top"><i class="fas fa-chevron-circle-up fa-4x"></i></a>
+        </li>
+    </ul> -->
+
+    <!-- HEADER -->
+    <header class="container-fluid">
+        <div class="row py-4">
+            <div class="col-2">
+                <ul>
+                    <li>
+                        <a href="../index.html"><img class="img-fluid bg" src="../img/logo_site.png" alt="Logo de David Bouscarle"></a>
+                    </li>
+                </ul>
+            </div>
+            <nav class="col-10 d-flex justify-content-end align-items-center">
+                <ul class="nav-items">
+                    <li>
+                        <a href="../index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#bio">bio</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#contact">contAct</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECTION H2 -->
+    <section class="container">
+        <div class="row">
+            <div class="col container-titre-page text-center">
+                <h2 class="pb-5 m-0 h2-page animate__animated animate__fadeInDown down-1">pRojets peRsonnels</h2>
+                <!-- SEPARATEUR -->
+                <div class="separateur-page w-25 mx-auto bg-light animate__animated animate__fadeIn down-3" style="padding: 0.5px"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN -->
+    <main class="container-fluid">
+        <div class="row">
+            <!-- TITRE PROJET -->
+            <div class="col-2">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-turbo-tab" data-toggle="pill" href="#v-pills-turbo" role="tab"
+                        aria-controls="v-pills-turbo" aria-selected="true">FRAMeWoRk tuRbo
+                    </a>
+                    <a class="nav-link" id="v-pills-escarvaillac-tab" data-toggle="pill" href="#v-pills-escarvaillac" role="tab"
+                        aria-controls="v-pills-escarvaillac" aria-selected="false">uX Mobile fiRst
+                    </a>
+                    <a class="nav-link" id="v-pills-interface-tab" data-toggle="pill" href="#v-pills-interface" role="tab"
+                        aria-controls="v-pills-interface" aria-selected="false">pRojet JS
+                    </a>
+                </div>
+            </div>
+            <!-- DESCRIPTION -->
+            <div class="col-10">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <!-- DESCRIPTION PROJET TURBO -->
+                    <div class="tab-pane fade show active" id="v-pills-turbo" role="tabpanel"
+                        aria-labelledby="v-pills-turbo-tab">
+                        <div
+                            class="d-flex flex-column align-items-center justify-content-center flex-xl-row align-items-xl-start">
+                            <div class="mx-5">
+                                <img src="../img/projet_section.jpg" alt="" class="img-fluid d-none d-md-block rounded-lg">
+                            </div>
+                            <div class="description text-center text-xl-left mt-0 mt-md-5 ">
+                                <h3 class="mb-5">descRiption du pRojet</h3>
+                                <div class="w-25 d-none d-xl-block mr-lg-auto bg-light animate__animated animate__fadeIn down-3"
+                                    style="padding: 0.5px"></div>
+                                <div class="w-25 d-block d-xl-none mx-auto bg-light animate__animated animate__fadeIn down-3"
+                                    style="padding: 0.5px"></div>
+                                <p class="mt-5">- creation d'un framework sur la base de bootstrap</p>
+                                <p>- creation collaborative en distanciel</p>
+                                <p>- creation de modules web réutilisables</p>
+                                <p>- technologies utilisées : javaScript / SASS / bootstrap / CSS3 / HTML</p>
+                                <p>- logiciels utilisés : XAMPP / Visual Studio Code / gitHub</p>
+                                <ul>
+                                    <li>
+                                        <a class="visite-projet after bg mt-5" href="https://turboframe.fr/"
+                                            target="_blank">VisiteR le site</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- DESCRIPTION PROJET ESCARVAILLAC -->
+                    <div class="tab-pane fade" id="v-pills-escarvaillac" role="tabpanel"
+                        aria-labelledby="v-pills-escarvaillac-tab">
+                        <div
+                            class="d-flex flex-column align-items-center justify-content-center flex-xl-row align-items-xl-start">
+                            <div class="mx-5">
+                                <img src="../img/fff.png" alt="" class="img-fluid d-none d-md-block rounded-lg">
+                            </div>
+                            <div class="description text-center text-xl-left mt-0 mt-md-5 ">
+                                <h3 class="mb-5">descRiption du pRojet</h3>
+                                <div class="w-25 d-none d-xl-block mr-lg-auto bg-light animate__animated animate__fadeIn down-3"
+                                    style="padding: 0.5px"></div>
+                                <div class="w-25 d-block d-xl-none mx-auto bg-light animate__animated animate__fadeIn down-3"
+                                    style="padding: 0.5px"></div>
+                                <p class="mt-5">- creation de la charte graphique</p>
+                                <p>- creation du cahier des charges</p>
+                                <p>- creation du site web</p>
+                                <p>- technologies utilisées : WordPress / PHP v7.4 / CSS3 / HTML</p>
+                                <p>- logiciels utilisés : XAMPP / InDesign / Illustrator / Photoshop</p>
+                                <ul>
+                                    <li>
+                                        <a class="visite-projet after bg mt-5" href="https://ventouxenimages.com"
+                                            target="_blank">VisiteR le site</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- DESCRIPTION INTERFACE JS -->
+                    <div class="tab-pane fade" id="v-pills-interface" role="tabpanel"
+                        aria-labelledby="v-pills-interface-tab">
+                        <div
+                            class="d-flex flex-column align-items-center justify-content-center flex-xl-row align-items-xl-start">
+                            <div class="mx-5">
+                                <img src="../img/fff.png" alt="" class="img-fluid d-none d-md-block rounded-lg">
+                            </div>
+                            <div class="description text-center text-xl-left mt-0 mt-md-5 ">
+                                <h3 class="mb-5">descRiption du pRojet</h3>
+                                <div class="w-25 d-none d-xl-block mr-lg-auto bg-light animate__animated animate__fadeIn down-3"
+                                    style="padding: 0.5px"></div>
+                                <div class="w-25 d-block d-xl-none mx-auto bg-light animate__animated animate__fadeIn down-3"
+                                    style="padding: 0.5px"></div>
+                                <p class="mt-5">- creation d'une interface Mobile First</p>
+                                <p>- ajout d'évenement audio</p>
+                                <p>- technologies utilisées : javaScript / jQuery / bootstrap / CSS3 / HTML</p>
+                                <p>- logiciels utilisés : Visual Studio Code / Figma</p>
+                                <ul>
+                                    <li>
+                                        <a class="visite-projet after bg mt-5" href="https://ventouxenimages.com"
+                                            target="_blank">VisiteR le site</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- DESCRIPTION ONE PAGE 1 RESPONSIVE -->
+                    <div class="tab-pane fade" id="v-pills-one-page-1" role="tabpanel"
+                        aria-labelledby="v-pills-one-page-1-tab">
+                        <div
+                            class="d-flex flex-column align-items-center justify-content-center flex-xl-row align-items-xl-start">
+                            <div class="mx-5">
+                                <img src="../img/fff.png" alt="" class="img-fluid d-none d-md-block rounded-lg">
+                            </div>
+                            <div class="description text-center text-xl-left mt-0 mt-md-5 ">
+                                <h3 class="mb-5">descRiption du pRojet</h3>
+                                <div class="w-25 d-none d-xl-block mr-lg-auto bg-light animate__animated animate__fadeIn down-3"
+                                    style="padding: 0.5px"></div>
+                                <div class="w-25 d-block d-xl-none mx-auto bg-light animate__animated animate__fadeIn down-3"
+                                    style="padding: 0.5px"></div>
+                                <p class="mt-5">- intégration d'une page web</p>
+                                <p>- one page / responsive</p>
+                                <p>- technologies utilisées : javaScript / jQuery / bootstrap / CSS3 / HTML</p>
+                                <p>- logiciels utilisés : Visual Studio Code / Photoshop</p>
+                                <ul>
+                                    <li>
+                                        <a class="visite-projet after bg mt-5" href="https://ventouxenimages.com"
+                                            target="_blank">VisiteR le site</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- DESCRIPTION ONE PAGE 2 RESPONSIVE -->
+                    <div class="tab-pane fade" id="v-pills-one-page-2" role="tabpanel"
+                        aria-labelledby="v-pills-one-page-2-tab">
+                        <div
+                            class="d-flex flex-column align-items-center justify-content-center flex-xl-row align-items-xl-start">
+                            <div class="mx-5">
+                                <img src="../img/fff.png" alt="" class="img-fluid d-none d-md-block rounded-lg">
+                            </div>
+                            <div class="description text-center text-xl-left mt-0 mt-md-5 ">
+                                <h3 class="mb-5">descRiption du pRojet</h3>
+                                <div class="w-25 d-none d-xl-block mr-lg-auto bg-light animate__animated animate__fadeIn down-3"
+                                    style="padding: 0.5px"></div>
+                                <div class="w-25 d-block d-xl-none mx-auto bg-light animate__animated animate__fadeIn down-3"
+                                    style="padding: 0.5px"></div>
+                                <p class="mt-5">- intégration d'une page web</p>
+                                <p>- one page / responsive</p>
+                                <p>- technologies utilisées : javaScript / jQuery / bootstrap / CSS3 / HTML</p>
+                                <p>- logiciels utilisés : Visual Studio Code / Photoshop</p>
+                                <ul>
+                                    <li>
+                                        <a class="visite-projet after bg mt-5" href="https://ventouxenimages.com"
+                                            target="_blank">VisiteR le site</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- SEPARATEUR -->
+    <div class="w-25 mx-auto bg-light" style="padding: 0.5px"></div>
+
+    <!-- NAVIGATION -->
+    <nav class="container navigation">
+        <div class="row">
+            <div class="col">
+                <ul class="d-flex justify-content-around justify-content-lg-between">
+                    <li>
+                        <a class="navigation-bouton before bg text-center" href="/photo.html">photogrAphie</a>
+                    </li>
+                    <li>
+                        <a class="navigation-bouton after bg text-center" href="/web.html">creAtion web</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid">
+        <div class="row container-footer d-flex flex-column-reverse align-content-center flex-lg-row">
+            <div class="col-4 px-0 px-lg-4">
+                <p class="size-footer d-none d-lg-block text-center text-lg-left">Copyright David Bouscarle Tous droits réservés</p>
+            </div>
+            <div class="col-4 py-5 py-lg-0">
+                <ul class="d-flex justify-content-center align-items-baseline">
+                    <li class=" mx-5">
+                        <a class="hover-social" href="https://www.linkedin.com/in/davidbouscarle" target="_blank">
+                            <i class="fab fa-linkedin-in fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="mx-5">
+                        <a class="hover-social" href="https://www.behance.net/davidbouscarle" target="_blank">
+                            <i class="fab fa-behance fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="mx-5">
+                        <a class="hover-social" href="https://www.instagram.com/davidbouscarle" target="_blank">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4 px-0 px-lg-4">
+                <ul class="hover-footer text-center text-lg-right">
+                    <li>
+                        <a class="size-footer" href="../doc/CV_david_bouscarle.pdf" download="CV david bouscarle">téléchArGeR mon cV</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MY JS -->
+    <script src="../js/main.js"></script>  
+
+</body>
+</html>
