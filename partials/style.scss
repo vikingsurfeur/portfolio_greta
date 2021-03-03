@@ -394,7 +394,7 @@ main {
         img {
             position: relative;
             filter: saturate(0) brightness(0.5) blur(0.2em);
-            transition: 500ms all;
+            transition: all 500ms ease;
         }
         img:hover {
             cursor: url(../img/eye.png), pointer;

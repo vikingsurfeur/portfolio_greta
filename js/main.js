@@ -1,9 +1,14 @@
+// PREDOWLOAD THE BACKGROUND IMAGE
+
+let bgImage = new Image();
+bgImage.src = '../img/bg2.jpg';
+
 $(document).ready(() => {
 
     // TO THE TOP BUTTON
 
-    let $toTop      = $('.toTop');
-    let duration    = 250;
+    let $toTop = $('.toTop');
+    let duration = 250;
     $toTop.hide(duration);
 
     $(document).scroll(() => {
